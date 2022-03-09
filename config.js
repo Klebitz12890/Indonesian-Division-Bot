@@ -10,6 +10,10 @@ global.APIKeys = {
   'https://melcanz.com': 'jokowi3periode'
 }
 
+//
+footer = 'Bot Group By ID Clans'
+//
+
 global.packname = 'ID Bot'
 global.author = 'ImByu'
 global.wm = 'Bot Group By ID Clans'
