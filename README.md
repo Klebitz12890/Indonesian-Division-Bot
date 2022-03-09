@@ -1,12 +1,12 @@
 <p align="center">
-	<img src="https://telegra.ph/file/8d6d446b6820a23916cfc.png" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://telegra.ph/file/ea97b54ada797c9ca5fa8.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">melcanz-bot</h1>
+<h1 align="center">Official ID Bot</h1>
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/melcanz/melcanz-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImByu/Indonesian-Division-Bot)
 
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EO4J713OkyVBlZDjBFgbLq)
+[![Contact Owner](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6283805870343)
 
 ## UNTUK PENGGUNA WINDOWS/VPS/RDP
 
@@ -31,8 +31,8 @@ $ apt update && upgrade -y
 $ pkg install ffmpeg
 $ pkg install nodejs-lts
 $ pkg install git
-$ git clone https://github.com/melcanz/melcanz-bot.git
-$ cd melcanz-bot
+$ git clone https://github.com/ImByu/Indonesian-Division-Bot.git
+$ cd Indonesian-Division-Bot
 $ npm i
 $ node .
 ```
