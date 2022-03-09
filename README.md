@@ -118,9 +118,3 @@ conn.logger.level = 'trace'
 ```js
 conn.logger.level = 'debug'
 ```
-
----------
-<a href="https://melcanz.com/"><img src="https://telegra.ph/file/8d6d446b6820a23916cfc.png" width="100" height="100"></a> | [![Melcanz](https://github.com/melcanz.png?size=100)](https://github.com/melcanz) | [![Ariffb](https://github.com/ariffb25.png?size=100)](https://github.com/ariffb25) 
-----|----|----
-[Melcanz Rest Api](https://melcanz.com/) | [Melcanz](https://github.com/melcanz) | [Ariffb](https://github.com/ariffb25) 
-Powered by Melcanz API | Owner of Melcanz Rest Api | Dev of Melcanz Rest Api & punya Amel
