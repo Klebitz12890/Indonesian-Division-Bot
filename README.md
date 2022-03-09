@@ -6,7 +6,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImByu/Indonesian-Division-Bot)
 
-[![Contact Owner](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6283805870343)
+[![Contact Owner](https://img.shields.io/badge/Contact%20Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6283805870343)
 
 ## UNTUK PENGGUNA WINDOWS/VPS/RDP
 
@@ -16,8 +16,8 @@
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/melcanz/melcanz-bot.git
-cd melcanz-bot
+git clone https://github.com/ImByu/Indonesian-Division-Bot.git
+cd Indonesian-Division-Bot
 npm i
 node .
 ```
