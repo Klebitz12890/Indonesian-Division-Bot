@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
     }
   }
 }
-handler.help = ['kick', '-'].map(v => 'o' + v + ' @user')
+handler.help = ['kick'].map(v => 'o' + v + ' @user')
 handler.tags = ['admin']
 handler.command = /^(kick|\-)$/i
 

@@ -28,6 +28,6 @@ handler.help = ['instagram'].map(v => v + ' <url>')
 handler.tags = ['other']
 handler.command = /^(instagram|ig)$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler

@@ -30,7 +30,7 @@ let handler = async (m, { conn }) => {
         }
     }
 }
-handler.help = ['stiker ', 'stiker <url>']
+handler.help = ['stiker']
 handler.tags = ['other']
 handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
 

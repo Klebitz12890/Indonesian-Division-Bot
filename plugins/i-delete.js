@@ -15,10 +15,10 @@ let handler = function (m, { isAdmin, isOwner }) {
     remoteJid: chat
   })
 }
-handler.help = ['del', 'delete']
+handler.help = ['del']
 handler.tags = ['admin']
 handler.command = /^del(ete)?$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler

@@ -309,7 +309,7 @@ ${usedPrefix}off welcome
 `.trim())
 }
 handler.help = ['on', 'off'].map(v => v + ' <option>')
-handler.tags = ['other']
+handler.tags = ['admin']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 
 handler.owner = true

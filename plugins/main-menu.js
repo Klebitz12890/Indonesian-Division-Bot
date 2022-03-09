@@ -2,12 +2,12 @@ let fs = require('fs')
 let path = require('path')
 let moment = require('moment-timezone')
 const defaultMenu = {
-  before: 'Hello Commander... Saya ID Bot, Ada yang bisa saya bantu?' `
+  before: `
 %readmore`.trimStart(),
   header: '┌「 *%category* 」',
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
-  after: 'Bot Group By ID Clans`
+  after: `
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
@@ -68,8 +68,7 @@ let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
       'admin': 'Menu Admin',
    }
     if (teks == 'other') tags = {
-      'other': 'Menu Lainnya',
-   }
+      'other': 'Menu Lainnya', 
     }
     if (teks == 'list') { // kalo teks ga sesuai arrayMenu bakal nampilin ini
       let { isBusiness } = conn.isOnWhatsApp(conn.user.jid) // bot wa bisnis?
@@ -88,7 +87,7 @@ let handler = async (m, { conn, usedPrefix: _p, text, isOwner, command }) => {
         }))
         let button = {
           buttonText: 'Menu',
-          description: `Hai @${m.sender.split`@`[0]}, Klik "Menu" untuk melihat daftar perintah\n\nNote: "ID Bot Hanya Untuk Admin Group"`,
+          description: `Hai @${m.sender.split`@`[0]}, Klik "Menu" untuk melihat daftar perintah\n\nNote:\n• Fitur *Admin* Khusus Untuk Admin Group ID Clans\n• Fitur *Other* Bebas untuk Member ID Clans\n(Dengan S&K yang berlaku)`,
           title: 'menu'
         }
         return conn.sendListM(m.chat, button, array, m)
@@ -171,18 +170,18 @@ function clockString(ms) {
 
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Indonesian Division"
+  res = "Official Bot ID Clans"
   if (time >= 4) {
-    res = "Indonesian Division"
+    res = "Official Bot ID Clans"
   }
   if (time > 10) {
-    res = "Indonesian Division"
+    res = "Official Bot ID Clans"
   }
   if (time >= 15) {
-    res = "Indonesian Division"
+    res = "Official Bot ID Clans"
   }
   if (time >= 18) {
-    res = "Indonesian Division"
+    res = "Official Bot ID Clans"
   }
   return res
 }

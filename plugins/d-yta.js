@@ -11,13 +11,13 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp3', `
 *judul:* ${title}
 *ukuran file:* ${filesizeF}
-`.trim(), m, 0, { asDocument: chat.useDocument, mimetype: 'audio/mp4' })
+`.trim(), m, 0, { asDocument: true, mimetype: 'audio/mp4' })
 }
-handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url>`)
-handler.tags = ['other']
+handler.help = []
+handler.tags = []
 handler.command = /^yt(a|mp3)$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler
 

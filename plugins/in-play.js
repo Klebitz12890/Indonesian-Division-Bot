@@ -32,7 +32,7 @@ handler.help = ['play'].map(v => v + ' <teks>')
 handler.tags = ['other']
 handler.command = /^(p|play)$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler
 

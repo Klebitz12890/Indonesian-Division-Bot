@@ -12,8 +12,8 @@ let handler = async function (m, { conn }) {
     "contacts": list
   }, 'contactsArrayMessage', { quoted: m })
 }
-handler.help = ['owner']
-handler.tags = ['other']
+handler.help = []
+handler.tags = []
 handler.command = /^(owner)$/i
 
 module.exports = handler

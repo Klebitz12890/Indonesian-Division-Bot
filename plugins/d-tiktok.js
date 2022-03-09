@@ -14,6 +14,6 @@ handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['other']
 handler.command = /^(tiktok|tt)$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler

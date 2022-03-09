@@ -13,6 +13,6 @@ handler.help = ['facebook'].map(v => v + ' <url>')
 handler.tags = ['other']
 handler.command = /^(facebook|fb)$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler

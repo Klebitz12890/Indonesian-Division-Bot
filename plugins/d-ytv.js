@@ -20,11 +20,11 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
         asDocument: true
     })
 }
-handler.help = ['mp4', 'v', ''].map(v => 'yt' + v + ` <url>`)
-handler.tags = ['other']
+handler.help = []
+handler.tags = []
 handler.command = /^yt(v|mp4)?$/i
 
-handler.admin = true
+handler.admin = false
 
 module.exports = handler
 

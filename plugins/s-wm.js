@@ -28,8 +28,8 @@ let handler = async (m, { conn, text }) => {
         else throw 'balas stikernya!'
     }
 }
-handler.help = ['wm <teks>|<teks>']
-handler.tags = ['other']
+handler.help = []
+handler.tags = []
 handler.command = /^(wm)$/i
 
 handler.admin = true
